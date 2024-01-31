@@ -1,0 +1,25 @@
+{
+  "name": "CreateEmailTemplates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suryakiran270199/CreateEmailTemplates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suryakiran270199/CreateEmailTemplates/issues"
+  },
+  "homepage": "https://github.com/Suryakiran270199/CreateEmailTemplates#readme",
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.503.1",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
