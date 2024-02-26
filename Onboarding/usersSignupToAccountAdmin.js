@@ -497,7 +497,7 @@ module.exports = userSignupToAccountAdmin = `
                                                                                 src={{platformLogo}}
                                                                                 alt
                                                                                 style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;
-                                                                                width:300px; height: 90px;object-fit: contain;"
+                                                                                width:250px; height: 90px;object-fit: contain;"
                                                                             />
                                                                         </a>
                                                                         </div>
