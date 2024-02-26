@@ -387,14 +387,12 @@ module.exports = emailOtp = `
               }
           }
 
-          .platform-logo-container{
-            aspect-ratio:18/2 !important;
-           }
-         
+     
            .platform-logo-container img {
              width: 100% !important;
              height: 100% !important;
              object-fit: contain !important;
+             aspect-ratio:18/2 !important;
            }
            
       </style>
@@ -489,7 +487,6 @@ module.exports = emailOtp = `
                                                           <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                               <tr>
                                                                   <td align="center" style="padding: 0; margin: 0; font-size: 0px;">
-                                                                  
                                                                   <a
                                                                           target="_blank"
                                                                           href={{platformURL}}
@@ -498,10 +495,10 @@ module.exports = emailOtp = `
                                                                           <img
                                                                               src={{platformLogo}}
                                                                               alt
-                                                                              style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:180px;"
+                                                                              style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;width: 250px;  height: 90px;
+                                                                               object-fit: contain;aspect-ratio: 8.5 / 2;"
                                                                               />
                                                                       </a>
-                                                                      
                                                                   </td>
                                                               </tr>
                                                               <tr>

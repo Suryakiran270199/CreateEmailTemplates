@@ -377,7 +377,7 @@ module.exports = defaultAppSubscription = `
                                                                     <td align="center" style="padding: 0; margin: 0; font-size: 0px;">
                                                                     <div class="platform-logo-container" >
                                                                         <a href="{{platformURL}}" target="_blank">
-                                                                            <img src="{{platformLogo}}" alt style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"width:180px;/>
+                                                                            <img src="{{platformLogo}}" alt style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;width:250px; height: 90px;object-fit: contain;"/>
                                                                         </a>
                                                                      </div>
                                                                     </td>

@@ -343,8 +343,8 @@ module.exports = assignSeatToUser = `
                                                                             <img
                                                                                 src={{platformLogo}}
                                                                                 alt
-                                                                                style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                                width:180px;
+                                                                                style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;
+                                                                                width:250px; height: 90px;object-fit: contain;"
                                                                                 />
                                                                         </a>
                                                                         </div>

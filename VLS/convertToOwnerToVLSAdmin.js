@@ -380,7 +380,7 @@
                                                                             href="{{platformURL}}"
                                                                             style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #022b3a; font-size: 14px;"
                                                                         >
-                                                                            <img src="{{platformLogo}}" alt style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"width:180px;/>
+                                                                            <img src="{{platformLogo}}" alt style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;width:250px; height: 90px;object-fit: contain;"/>
                                                                         </a>
                                                                         </div>
                                                                     </td>
