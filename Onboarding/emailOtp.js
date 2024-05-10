@@ -539,7 +539,7 @@ module.exports = emailOtp = `
                                                                               margin-bottom: 12px;
                                                                           "
                                                                       >
-                                                                          {{headerText}}
+                                                                          {{firstRow}}
                                                                       </h3>
                                                                       <p
                                                                           style="
@@ -554,7 +554,7 @@ module.exports = emailOtp = `
                                                                               font-size: 18px;
                                                                           "
                                                                       >
-                                                                          {{upperOtpText}}
+                                                                          {{secondRow}}
                                                                       </p>
                                                                       <p
                                                                           style="
@@ -584,7 +584,7 @@ module.exports = emailOtp = `
                                                                               font-size: 13px;
                                                                           "
                                                                       >
-                                                                          Please do not share it with others.
+                                                                         {{thirdRow}}
                                                                       </p>
                                                                   </td>
                                                               </tr>
@@ -619,34 +619,35 @@ module.exports = emailOtp = `
                                                           <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                               <tr>
                                                                   <td align="center" bgcolor="#ffffff" style="padding: 0; margin: 0;">
-                                                                      <p
-                                                                          style="
-                                                                              margin: 0;
-                                                                              -webkit-text-size-adjust: none;
-                                                                              -ms-text-size-adjust: none;
-                                                                              mso-line-height-rule: exactly;
-                                                                              font-family: poppins, sans-serif;
-                                                                              line-height: 18px;
-                                                                              margin-bottom: 11px;
-                                                                              color: #191919;
-                                                                              font-size: 14px;
-                                                                          "
-                                                                      >
-                                                                          <a href={{privacyPolicyLink}} 
-                                                                          target="_blank"
-                                                                          style="
+                                                                  <p
+                                                                  style="
+                                                                      margin: 0;
+                                                                      -webkit-text-size-adjust: none;
+                                                                      -ms-text-size-adjust: none;
+                                                                      mso-line-height-rule: exactly;
+                                                                      font-family: tahoma, verdana, segoe, sans-serif;
+                                                                      line-height: 18px;
+                                                                      color: #191919;
+                                                                      font-size: 14px;
+                                                                  "
+                                                              >
+                                                                  <a
+                                                                      target="_blank"
+                                                                      style="
                                                                           -webkit-text-size-adjust: none;
                                                                           -ms-text-size-adjust: none;
                                                                           mso-line-height-rule: exactly;
                                                                           text-decoration: none;
                                                                           color: #191919;
                                                                           font-size: 14px;
-                                                                          font-family: Poppins, sans-serif;"
-                                                                          >
-                                                                              Privacy Policy
-                                                                          </a>
-                                                                          © 2024 {{platFormName}}
-                                                                      </p>
+                                                                          font-family: tahoma, verdana, segoe, sans-serif;
+                                                                      "
+                                                                      href={{privacyPolicyLink}}
+                                                                  >
+                                                                      {{fourthRow}}
+                                                                  </a>
+                                                                  @{{platformDomain}}
+                                                              </p>
                                                                   </td>
                                                               </tr>
                                                               <tr>

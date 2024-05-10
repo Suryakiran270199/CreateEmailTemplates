@@ -7,7 +7,7 @@ module.exports = appSubscriptionToAccountAdmin = `
             <meta name="x-apple-disable-message-reformatting" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta content="telephone=no" name="format-detection" />
-            <title>App subscription-V</title>
+            <title>App subscription</title>
             <!--[if (mso 16)]>
                 <style type="text/css">
                     a {
@@ -440,7 +440,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                                     text-align: center;
                                                                                 "
                                                                             >
-                                                                                You have subscribed to {{appName}} app
+                                                                                {{firstRow}} {{appName}}
                                                                             </h2>
                                                                         </td>
                                                                     </tr>
@@ -471,7 +471,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                                     text-align: left;
                                                                                 "
                                                                             >
-                                                                                Dear Account Admin,
+                                                                                {{secondRow}}
                                                                             </p>
                                                                             <p
                                                                                 style="
@@ -485,7 +485,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                                     font-size: 15px;
                                                                                 "
                                                                             >
-                                                                                This email confirms your subscription purchase
+                                                                               {{thirdRow}}
                                                                             </p>
                                                                         </td>
                                                                     </tr>
@@ -760,7 +760,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                                                 font-size: 15px;
                                                                                             "
                                                                                         >
-                                                                                            {{trialPeriod}}
+                                                                                            {{trialPeriod}} days
                                                                                         </p>
                                                                                     </td>
                                                                                 </tr>
@@ -856,7 +856,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                                                 font-size: 15px;
                                                                                             "
                                                                                         >
-                                                                                            {{subscriptionPrice}}
+                                                                                            {{subscriptionPrice}} {{#if currencyTypeIsINR}} ₹ {{/if}}{{#if currencyTypeIsUSD}} $ {{/if}}
                                                                                         </p>
                                                                                     </td>
                                                                                 </tr>
@@ -891,7 +891,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                                     >
                                                                                         <w:anchorlock></w:anchorlock>
                                                                                         <center style="color: #ffffff; font-family: tahoma, verdana, segoe, sans-serif; font-size: 14px; font-weight: 700; line-height: 14px; mso-text-raise: 1px;">
-                                                                                        {{buttonContext}}
+                                                                                        {{fourthRow}}
                                                                                         </center>
                                                                                     </v:roundrect>
                                                                                 </a>
@@ -937,7 +937,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                                         mso-border-alt: 10px solid #31cb4b;
                                                                                     "
                                                                                 >
-                                                                                    {{buttonContext}}
+                                                                                    {{fourthRow}}
                                                                                 </a>
                                                                             </span>
                                                                             <!--<![endif]-->
@@ -998,7 +998,7 @@ module.exports = appSubscriptionToAccountAdmin = `
                                                                             font-family: Poppins, sans serif;"
                                                                             targe="_blank"
                                                                             >
-                                                                                Privacy Policy </a> @{{platFormName}}
+                                                                                {{fifthRow}}</a> @{{platformDomain}}
                                                                             </p>
                                                                         </td>
                                                                     </tr>

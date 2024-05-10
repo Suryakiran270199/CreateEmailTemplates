@@ -8,7 +8,7 @@ module.exports = usersSignupToVlsAdmin = `
         <meta name="x-apple-disable-message-reformatting" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="telephone=no" name="format-detection" />
-        <title>user signup confirmation to VLS Admin -V</title>
+        <title>user signup confirmation to VLS Admin</title>
         <!--[if (mso 16)]>
             <style type="text/css">
                 a {
@@ -587,7 +587,7 @@ module.exports = usersSignupToVlsAdmin = `
                                                                                 margin-bottom: 12px;
                                                                             "
                                                                         >
-                                                                            User Signup Confirmation
+                                                                            {{firstRow}}
                                                                         </h3>
                                                                     </td>
                                                                 </tr>
@@ -606,7 +606,7 @@ module.exports = usersSignupToVlsAdmin = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            Dear VLS Admin,
+                                                                          {{secondRow}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -621,7 +621,7 @@ module.exports = usersSignupToVlsAdmin = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            A new user has signed up for {{subDomainCode}}.
+                                                                            {{thirdRow}}
                                                                         </p>
 
                                                                         <p
@@ -639,7 +639,7 @@ module.exports = usersSignupToVlsAdmin = `
                                                                         >
                                                                             <br />
                                                                         </p>
-                                                                        <h4 style="margin: 0; line-height: 18px; mso-line-height-rule: exactly; font-family: poppins, sans-serif; font-size: 18px;"><u>User Details</u></h4>
+                                                                        <h4 style="margin: 0; line-height: 18px; mso-line-height-rule: exactly; font-family: poppins, sans-serif; font-size: 18px;"><u>{{fourthRow}}</u></h4>
                                                                         <div><br /></div>
                                                                         <p
                                                                             style="
@@ -735,7 +735,7 @@ module.exports = usersSignupToVlsAdmin = `
                                                                         >
                                                                         <a
                                                                         style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color:  #191919; font-size: 14px;"
-                                                                        href={{privacyPolicyLink}}> Copyright</a> © {{platFormName}}
+                                                                        href={{privacyPolicyLink}}> {{fifthRow}}</a> © {{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

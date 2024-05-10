@@ -7,7 +7,7 @@ module.exports = userSignup = `
         <meta name="x-apple-disable-message-reformatting" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="telephone=no" name="format-detection" />
-        <title>user signup confirmation to user-V</title>
+        <title>user signup confirmation to user</title>
         <!--[if (mso 16)]>
             <style type="text/css">
                 a {
@@ -536,7 +536,7 @@ module.exports = userSignup = `
                                                                                 margin-bottom: 12px;
                                                                             "
                                                                         >
-                                                                            Joined {{subdomainCode}}!
+                                                                            {{firstRow}}
                                                                         </h3>
                                                                     </td>
                                                                 </tr>
@@ -556,7 +556,7 @@ module.exports = userSignup = `
                                                                                 text-align: left;
                                                                             "
                                                                         >
-                                                                            Dear {{userName}},
+                                                                            {{secondRow}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -572,7 +572,7 @@ module.exports = userSignup = `
                                                                                 text-align: left;
                                                                             "
                                                                         >
-                                                                            Welcome to {{subdomainCode}}.
+                                                                            {{thirdRow}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -588,9 +588,9 @@ module.exports = userSignup = `
                                                                                 text-align: left;
                                                                             "
                                                                         >
-                                                                            Please contact your Account Admin to assign you a seat to start using an app.
+                                                                            {{fourthRow}}
                                                                         </p>
-                                                                        <h4 style="margin: 0; line-height: 27px; mso-line-height-rule: exactly; font-family: poppins, sans-serif; font-size: 18px;"><u>Account Details</u></h4>
+                                                                        <h4 style="margin: 0; line-height: 27px; mso-line-height-rule: exactly; font-family: poppins, sans-serif; font-size: 18px;"><u>{{fifthRow}}</u></h4>
                                                                         <p
                                                                             style="
                                                                                 margin: 0;
@@ -686,7 +686,7 @@ module.exports = userSignup = `
                                                                 >
                                                                 <a
                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color:  #191919; font-size: 14px;"
-                                                                href={{privacyPolicyLink}}> Privacy Policy</a>© {{platFormName}}
+                                                                href={{privacyPolicyLink}}> {{sixthRow}}</a>© {{platformDomain}}
                                                                 </p>
                                                             </td>
                                                                 </tr>

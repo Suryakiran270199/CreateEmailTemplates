@@ -7,7 +7,7 @@ module.exports = userSignupToAccountAdmin = `
         <meta name="x-apple-disable-message-reformatting" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="telephone=no" name="format-detection" />
-        <title>User signup confirmation to Account Admin -V</title>
+        <title>User signup confirmation to Account Admin</title>
         <!--[if (mso 16)]>
             <style type="text/css">
                 a {
@@ -531,7 +531,7 @@ module.exports = userSignupToAccountAdmin = `
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            {{userName}} Joined {{subDomainCode}}
+                                                                            {{firstRow}}
                                                                         </h3>
                                                                         <p
                                                                             style="
@@ -546,7 +546,7 @@ module.exports = userSignupToAccountAdmin = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            Dear Account Admin,
+                                                                           {{secondRow}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -561,7 +561,7 @@ module.exports = userSignupToAccountAdmin = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                        {{userName}} joined your account.
+                                                                        {{thirdRow}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -579,7 +579,7 @@ module.exports = userSignupToAccountAdmin = `
                                                                             &nbsp;&nbsp;
                                                                         </p>
                                                                         <h4 style="margin: 0; line-height: 22px; mso-line-height-rule: exactly; font-family: Sora, Arial, sans-serif; font-size: 18px; text-align: left;">
-                                                                            <u>User Details</u>
+                                                                            <u>{{fourthRow}}</u>
                                                                         </h4>
                                                                         <h4 style="margin: 0; line-height: 12px; mso-line-height-rule: exactly; font-family: Sora, Arial, sans-serif; font-size: 10px; text-align: left;"><br /></h4>
                                                                         <p
@@ -640,7 +640,7 @@ module.exports = userSignupToAccountAdmin = `
                                                                                 font-size: 13px;
                                                                             "
                                                                         >
-                                                                            Please assign the newly added user a seat for them to start using an app.&nbsp;&nbsp;
+                                                                        {{fifthRow}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
@@ -690,7 +690,7 @@ module.exports = userSignupToAccountAdmin = `
                                                                         >
                                                                         <a
                                                                         style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color:  #191919; font-size: 14px;"
-                                                                        href={{privacyPolicyLink}}> Copyright</a> © {{platFormName}}
+                                                                        href={{privacyPolicyLink}}> {{sixthRow}}</a> © {{platformDomain}}
                                                                         </p>                                                                        </p>
                                                                     </td>
                                                                 </tr>

@@ -7,7 +7,7 @@
         <meta name="x-apple-disable-message-reformatting" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="telephone=no" name="format-detection" />
-        <title>app submit for publish confirmation to VLS Admin</title>
+        <title>app submit for publish confirmation to Admin</title>
         <!--[if (mso 16)]>
             <style type="text/css">
                 a {
@@ -595,7 +595,7 @@
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            <strong>&nbsp;{{appName}}</strong> app is awaiting approval&nbsp;
+                                                                        {{appName}} {{firstRow}}
                                                                         </h3>
                                                                         <p
                                                                             style="
@@ -623,21 +623,7 @@
                                                                                 font-size: 16px;
                                                                             "
                                                                         >
-                                                                            <strong>{{accountAdminName}}</strong> from<strong> {{orgName}}</strong> wants <strong>{{appName}}</strong> app
-                                                                        </p>
-                                                                        <p
-                                                                            style="
-                                                                                margin: 0;
-                                                                                -webkit-text-size-adjust: none;
-                                                                                -ms-text-size-adjust: none;
-                                                                                mso-line-height-rule: exactly;
-                                                                                font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                line-height: 24px;
-                                                                                color: #333333;
-                                                                                font-size: 16px;
-                                                                            "
-                                                                        >
-                                                                            &nbsp;to be pulished on to App Store
+                                                                          {{orgName}}  {{secondRow}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
@@ -656,7 +642,7 @@
                                                                 <tr>
                                                                     <td align="left" style="padding: 5px; margin: 0;">
                                                                         <h4 style="margin: 0; line-height: 24px; mso-line-height-rule: exactly; font-family: tahoma, verdana, segoe, sans-serif; font-size: 20px; text-align: center;">
-                                                                            Pricing Details
+                                                                            {{thirdRow}}
                                                                         </h4>
                                                                     </td>
                                                                 </tr>
@@ -811,7 +797,7 @@
                                                                                 >
                                                                                     <w:anchorlock></w:anchorlock>
                                                                                     <center style="color: #ffffff; font-family: tahoma, verdana, segoe, sans-serif; font-size: 14px; font-weight: 700; line-height: 14px; mso-text-raise: 1px;">
-                                                                                        Review {{appName}}
+                                                                                       {{fourthRow}}
                                                                                     </center>
                                                                                 </v:roundrect>
                                                                             </a>
@@ -857,7 +843,7 @@
                                                                                     mso-border-alt: 10px solid #31cb4b;
                                                                                 "
                                                                             >
-                                                                                Review {{appName}}
+                                                                                {{fourthRow}}
                                                                             </a>
                                                                         </span>
                                                                         <!--<![endif]-->
@@ -924,9 +910,9 @@
                                                                                 "
                                                                                 href={{privacyPolicyLink}}
                                                                             >
-                                                                                Privacy Policy
+                                                                                {{fifthRow}}
                                                                             </a>
-                                                                            @{{platformEndpoint}} 
+                                                                            @{{platformDomain}} 
                                                                         </p>
                                                                     </td>
                                                                 </tr>

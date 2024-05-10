@@ -1,5 +1,5 @@
-  module.exports = makeAdminToAccountAdmin = `
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+module.exports = striprOnboarding = `
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -7,7 +7,7 @@
         <meta name="x-apple-disable-message-reformatting" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="telephone=no" name="format-detection" />
-        <title>make admin confirmation to account admin</title>
+        <title>New Template</title>
         <!--[if (mso 16)]>
             <style type="text/css">
                 a {
@@ -24,10 +24,7 @@
         <![endif]-->
         <!--[if gte mso 9]>
             <xml>
-                <o:OfficeDocumentSettings>
-                    <o:AllowPNG></o:AllowPNG>
-                    <o:PixelsPerInch>96</o:PixelsPerInch>
-                </o:OfficeDocumentSettings>
+                <o:OfficeDocumentSettings> <o:AllowPNG></o:AllowPNG> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings>
             </xml>
         <![endif]-->
         <style type="text/css">
@@ -184,16 +181,16 @@
                     height: auto !important;
                 }
                 .es-m-p0 {
-                    padding: 0px !important;
+                    padding: 0 !important;
                 }
                 .es-m-p0r {
-                    padding-right: 0px !important;
+                    padding-right: 0 !important;
                 }
                 .es-m-p0l {
-                    padding-left: 0px !important;
+                    padding-left: 0 !important;
                 }
                 .es-m-p0t {
-                    padding-top: 0px !important;
+                    padding-top: 0 !important;
                 }
                 .es-m-p0b {
                     padding-bottom: 0 !important;
@@ -242,26 +239,134 @@
                     overflow: visible !important;
                     max-height: inherit !important;
                 }
+                .es-m-p5 {
+                    padding: 5px !important;
+                }
+                .es-m-p5t {
+                    padding-top: 5px !important;
+                }
+                .es-m-p5b {
+                    padding-bottom: 5px !important;
+                }
+                .es-m-p5r {
+                    padding-right: 5px !important;
+                }
+                .es-m-p5l {
+                    padding-left: 5px !important;
+                }
+                .es-m-p10 {
+                    padding: 10px !important;
+                }
+                .es-m-p10t {
+                    padding-top: 10px !important;
+                }
+                .es-m-p10b {
+                    padding-bottom: 10px !important;
+                }
+                .es-m-p10r {
+                    padding-right: 10px !important;
+                }
+                .es-m-p10l {
+                    padding-left: 10px !important;
+                }
+                .es-m-p15 {
+                    padding: 15px !important;
+                }
+                .es-m-p15t {
+                    padding-top: 15px !important;
+                }
+                .es-m-p15b {
+                    padding-bottom: 15px !important;
+                }
+                .es-m-p15r {
+                    padding-right: 15px !important;
+                }
+                .es-m-p15l {
+                    padding-left: 15px !important;
+                }
+                .es-m-p20 {
+                    padding: 20px !important;
+                }
+                .es-m-p20t {
+                    padding-top: 20px !important;
+                }
+                .es-m-p20r {
+                    padding-right: 20px !important;
+                }
+                .es-m-p20l {
+                    padding-left: 20px !important;
+                }
+                .es-m-p25 {
+                    padding: 25px !important;
+                }
+                .es-m-p25t {
+                    padding-top: 25px !important;
+                }
+                .es-m-p25b {
+                    padding-bottom: 25px !important;
+                }
+                .es-m-p25r {
+                    padding-right: 25px !important;
+                }
+                .es-m-p25l {
+                    padding-left: 25px !important;
+                }
+                .es-m-p30 {
+                    padding: 30px !important;
+                }
+                .es-m-p30t {
+                    padding-top: 30px !important;
+                }
+                .es-m-p30b {
+                    padding-bottom: 30px !important;
+                }
+                .es-m-p30r {
+                    padding-right: 30px !important;
+                }
+                .es-m-p30l {
+                    padding-left: 30px !important;
+                }
+                .es-m-p35 {
+                    padding: 35px !important;
+                }
+                .es-m-p35t {
+                    padding-top: 35px !important;
+                }
+                .es-m-p35b {
+                    padding-bottom: 35px !important;
+                }
+                .es-m-p35r {
+                    padding-right: 35px !important;
+                }
+                .es-m-p35l {
+                    padding-left: 35px !important;
+                }
+                .es-m-p40 {
+                    padding: 40px !important;
+                }
+                .es-m-p40t {
+                    padding-top: 40px !important;
+                }
+                .es-m-p40b {
+                    padding-bottom: 40px !important;
+                }
+                .es-m-p40r {
+                    padding-right: 40px !important;
+                }
+                .es-m-p40l {
+                    padding-left: 40px !important;
+                }
             }
-            .platform-logo-container{
-                aspect-ratio:18/2;
-               }
-               
-               .platform-logo-container img {
-                 width: 100%;
-                 height: 100%;
-                 object-fit: contain;
-               }
-               
+            @media screen and (max-width: 384px) {
+                .mail-message-content {
+                    width: 414px !important;
+                }
+            }
         </style>
     </head>
-    <body data-new-gr-c-s-loaded="14.1132.0" style="width: 100%; font-family: arial, 'helvetica neue', helvetica, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding: 0; margin: 0;">
+    <body data-new-gr-c-s-loaded="14.1167.0" style="width: 100%; font-family: arial, 'helvetica neue', helvetica, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding: 0; margin: 0;">
         <div dir="ltr" class="es-wrapper-color" lang="en" style="background-color: #f6f6f6;">
-            <!--[if gte mso 9]>
-                <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-                    <v:fill type="tile" color="#f6f6f6"></v:fill>
-                </v:background>
-            <![endif]-->
+            <!--[if gte mso 9]><v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t"> <v:fill type="tile" color="#f6f6f6"></v:fill> </v:background><![endif]-->
             <table
                 class="es-wrapper"
                 width="100%"
@@ -313,12 +418,12 @@
                                         role="none"
                                         style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px; background-color: #ffffff; width: 600px;"
                                     >
-                                        <tr class="es-mobile-hidden">
-                                            <td align="left" bgcolor="#F6f6f6" style="padding: 0; margin: 0; padding-top: 20px; padding-left: 20px; padding-right: 20px; background-color: #f6f6f6;">
-                                                <table cellspacing="0" cellpadding="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
+                                        <tr>
+                                            <td align="left" bgcolor="#F6F6F6" style="padding: 0; margin: 0; padding-top: 20px; padding-right: 20px; background-color: #f6f6f6;">
+                                                <table cellpadding="0" cellspacing="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                     <tr>
-                                                        <td class="es-m-p0r" valign="top" align="center" style="padding: 0; margin: 0; width: 560px;">
-                                                            <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
+                                                        <td align="center" valign="top" style="padding: 0; margin: 0; width: 580px;">
+                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
                                                                     <td align="left" style="padding: 0; margin: 0;">
                                                                         <p
@@ -343,29 +448,6 @@
                                                 </table>
                                             </td>
                                         </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        <table
-                            class="es-content"
-                            cellspacing="0"
-                            cellpadding="0"
-                            align="center"
-                            role="none"
-                            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px; table-layout: fixed !important; width: 100%;"
-                        >
-                            <tr>
-                                <td align="center" style="padding: 0; margin: 0;">
-                                    <table
-                                        class="es-content-body"
-                                        cellspacing="0"
-                                        cellpadding="0"
-                                        bgcolor="#ffffff"
-                                        align="center"
-                                        role="none"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px; background-color: #ffffff; width: 600px;"
-                                    >
                                         <tr>
                                             <td align="left" style="padding: 0; margin: 0; padding-top: 20px; padding-left: 20px; padding-right: 20px;">
                                                 <table width="100%" cellspacing="0" cellpadding="0" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
@@ -373,42 +455,14 @@
                                                         <td valign="top" align="center" style="padding: 0; margin: 0; width: 560px;">
                                                             <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
-                                                                    <td align="center" style="padding: 0; margin: 0; padding-left: 5px; padding-right: 5px; padding-top: 20px; padding-bottom:20px; font-size: 0px;">
-                                                                    <div class="platform-logo-container" >
-                                                                    <a
-                                                                    target="_blank"
-                                                                    href={{platformURL}}
-                                                                    style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #022b3a; font-size: 14px;"
-                                                                >
-                                                                    <img
-                                                                            src={{platformLogo}}
-                                                                            alt
-                                                                            style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;width:250px; height: 90px;object-fit: contain;"
-                                                                            />
-                                                                       </a>
-                                                                       </div>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" style="padding: 0; margin: 0; padding-left: 20px; padding-right: 20px;">
-                                                <table width="100%" cellspacing="0" cellpadding="0" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                    <tr>
-                                                        <td valign="top" align="center" style="padding: 0; margin: 0; width: 560px;">
-                                                            <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                                <tr>
                                                                     <td align="center" style="padding: 0; margin: 0; font-size: 0px;">
                                                                         <img
-                                                                            src={{templateLogo}}
+                                                                            class="adapt-img"
+                                                                            src={{platformLogo}}
                                                                             alt
                                                                             style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                            width="180"
-                                                                            height="180"
+                                                                            width="250"
+                                                                            height="58"
                                                                         />
                                                                     </td>
                                                                 </tr>
@@ -419,28 +473,143 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="left" style="padding: 0; margin: 0;">
-                                                <table cellspacing="0" cellpadding="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
+                                            <td align="left" style="padding: 0; margin: 0; padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+                                                <table width="100%" cellspacing="0" cellpadding="0" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                     <tr>
-                                                        <td align="left" style="padding: 0; margin: 0; width: 600px;">
+                                                        <td valign="top" align="center" style="padding: 0; margin: 0; width: 560px;">
                                                             <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
-                                                                    <td align="center" style="padding: 10px; margin: 0;">
-                                                                        <h2
+                                                                    <td align="center" style="padding: 0; margin: 0;">
+                                                                        <h1
                                                                             style="
                                                                                 margin: 0;
-                                                                                line-height: 27px;
+                                                                                line-height: 45px;
                                                                                 mso-line-height-rule: exactly;
-                                                                                font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                font-size: 18px;
+                                                                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                font-size: 30px;
                                                                                 font-style: normal;
                                                                                 font-weight: normal;
                                                                                 color: #333333;
-                                                                                text-align: center;
                                                                             "
                                                                         >
-                                                                           {{firstRow}}
-                                                                        </h2>
+                                                                            <strong>{{row1}}</strong>
+                                                                        </h1>
+                                                                        <p
+                                                                            style="
+                                                                                margin: 0;
+                                                                                -webkit-text-size-adjust: none;
+                                                                                -ms-text-size-adjust: none;
+                                                                                mso-line-height-rule: exactly;
+                                                                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                line-height: 21px;
+                                                                                color: #333333;
+                                                                                font-size: 14px;
+                                                                                display: none;
+                                                                            "
+                                                                        >
+                                                                            <br />
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" class="es-m-p10 es-m-txt-c" style="padding: 15px; margin: 0;">
+                                                                        <p
+                                                                            style="
+                                                                                margin: 0;
+                                                                                -webkit-text-size-adjust: none;
+                                                                                -ms-text-size-adjust: none;
+                                                                                mso-line-height-rule: exactly;
+                                                                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                line-height: 23px;
+                                                                                color: #333333;
+                                                                                font-size: 15px;
+                                                                            "
+                                                                        >
+                                                                            {{row2}}<br />
+                                                                           {{row3}}
+                                                                        </p>
+                                                                        <p
+                                                                            style="
+                                                                                margin: 0;
+                                                                                -webkit-text-size-adjust: none;
+                                                                                -ms-text-size-adjust: none;
+                                                                                mso-line-height-rule: exactly;
+                                                                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                line-height: 21px;
+                                                                                color: #333333;
+                                                                                font-size: 14px;
+                                                                                display: none;
+                                                                            "
+                                                                        >
+                                                                            <br />
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" style="padding: 5px; margin: 0;">
+                                                                        <!--[if mso]>
+                                                                            <a href="" target="_blank" hidden>
+                                                                                <v:roundrect
+                                                                                    xmlns:v="urn:schemas-microsoft-com:vml"
+                                                                                    xmlns:w="urn:schemas-microsoft-com:office:word"
+                                                                                    esdevVmlButton
+                                                                                    href=""
+                                                                                    style="height: 41px; v-text-anchor: middle; width: 202px;"
+                                                                                    arcsize="20%"
+                                                                                    stroke="f"
+                                                                                    fillcolor="#358bd0"
+                                                                                >
+                                                                                    <w:anchorlock></w:anchorlock>
+                                                                                    <center
+                                                                                        style="
+                                                                                            color: #ffffff;
+                                                                                            font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                            font-size: 15px;
+                                                                                            font-weight: 700;
+                                                                                            line-height: 15px;
+                                                                                            mso-text-raise: 1px;
+                                                                                        "
+                                                                                    >
+                                                                                        Onboarding Link
+                                                                                    </center>
+                                                                                </v:roundrect>
+                                                                            </a>
+                                                                        <![endif]-->
+                                                                        <!--[if !mso]><!-- -->
+                                                                        <span
+                                                                            class="msohide es-button-border"
+                                                                            style="border-style: solid; border-color: #2cb543; background: #358bd0; border-width: 0px; display: inline-block; border-radius: 8px; width: auto; mso-hide: all;"
+                                                                        >
+                                                                            <a
+                                                                                href=""
+                                                                                class="es-button es-button-1713338846873"
+                                                                                target="_blank"
+                                                                                style="
+                                                                                    mso-style-priority: 100 !important;
+                                                                                    text-decoration: none;
+                                                                                    -webkit-text-size-adjust: none;
+                                                                                    -ms-text-size-adjust: none;
+                                                                                    mso-line-height-rule: exactly;
+                                                                                    color: #ffffff;
+                                                                                    font-size: 18px;
+                                                                                    display: inline-block;
+                                                                                    background: #358bd0;
+                                                                                    border-radius: 8px;
+                                                                                    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                    font-weight: bold;
+                                                                                    font-style: normal;
+                                                                                    line-height: 22px;
+                                                                                    width: auto;
+                                                                                    text-align: center;
+                                                                                    padding: 10px 20px;
+                                                                                    mso-padding-alt: 0;
+                                                                                    mso-border-alt: 10px solid #358bd0;
+                                                                                "
+                                                                            >
+                                                                                {{buttonText}}
+                                                                            </a>
+                                                                        </span>
+                                                                        <!--<![endif]-->
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -451,31 +620,33 @@
                                                                                 -webkit-text-size-adjust: none;
                                                                                 -ms-text-size-adjust: none;
                                                                                 mso-line-height-rule: exactly;
-                                                                                font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                line-height: 23px;
+                                                                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                line-height: 21px;
                                                                                 color: #333333;
-                                                                                font-size: 15px;
+                                                                                font-size: 14px;
                                                                             "
                                                                         >
-                                                                           {{userEmail}} {{secondRow}} {{orgName}}
+                                                                          {{row4}}
                                                                         </p>
-                                                                        <p />
+                                                                        <p
+                                                                            style="
+                                                                                margin: 0;
+                                                                                -webkit-text-size-adjust: none;
+                                                                                -ms-text-size-adjust: none;
+                                                                                mso-line-height-rule: exactly;
+                                                                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                line-height: 21px;
+                                                                                color: #333333;
+                                                                                font-size: 14px;
+                                                                                display: none;
+                                                                            "
+                                                                        >
+                                                                            <br />
+                                                                        </p>
                                                                     </td>
                                                                 </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" style="padding: 0; margin: 0; padding-left: 20px; padding-right: 20px;">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                    <tr>
-                                                        <td align="center" valign="top" style="padding: 0; margin: 0; width: 560px;">
-                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
-                                                                    <td align="center" style="padding: 5px; margin: 0; font-size: 0;">
+                                                                    <td align="center" style="padding: 15px; margin: 0; font-size: 0;">
                                                                         <table
                                                                             border="0"
                                                                             width="100%"
@@ -498,38 +669,26 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="left" style="padding: 0; margin: 0; padding-left: 20px; padding-right: 20px;">
+                                            <td align="left" style="padding: 0; margin: 0;">
                                                 <table cellpadding="0" cellspacing="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                     <tr>
-                                                        <td align="center" valign="top" style="padding: 0; margin: 0; width: 560px;">
+                                                        <td align="center" valign="top" style="padding: 0; margin: 0; width: 600px;">
                                                             <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
-                                                                    <td align="center" style="padding: 5px; margin: 0;">
+                                                                    <td align="center" style="padding: 0; margin: 0;">
                                                                         <p
                                                                             style="
                                                                                 margin: 0;
                                                                                 -webkit-text-size-adjust: none;
                                                                                 -ms-text-size-adjust: none;
                                                                                 mso-line-height-rule: exactly;
-                                                                                font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                line-height: 18px;
-                                                                                color: #191919;
+                                                                                font-family: arial, 'helvetica neue', helvetica, sans-serif;
+                                                                                line-height: 21px;
+                                                                                color: #333333;
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                        <a href={{privacyPolicyLink}} 
-                                                                        target="_blank"
-                                                                        style="
-                                                                        -webkit-text-size-adjust: none;
-                                                                        -ms-text-size-adjust: none;
-                                                                        mso-line-height-rule: exactly;
-                                                                        text-decoration: none;
-                                                                        color: #191919;
-                                                                        font-size: 14px;
-                                                                        font-family: Poppins, sans-serif;"
-                                                                        >
-                                                                            {{thirdRow}}
-                                                                        </a> @{{platformDomain}}
+                                                                            {{privacyPolicyText}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
@@ -540,17 +699,18 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="left" style="padding: 0; margin: 0; padding-top: 5px; padding-left: 20px; padding-right: 20px;">
-                                                <table cellspacing="0" cellpadding="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
+                                            <td align="left" style="padding: 10px; margin: 0;">
+                                                <table cellpadding="0" cellspacing="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                     <tr>
-                                                        <td align="left" style="padding: 0; margin: 0; width: 560px;">
-                                                            <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
+                                                        <td align="center" valign="top" style="padding: 0; margin: 0; width: 580px;">
+                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
-                                                                    <td align="center" style="margin: 0; padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 20px; font-size: 0;">
+                                                                    <td align="center" style="padding: 5px; margin: 0; font-size: 0;">
                                                                         <table
                                                                             cellpadding="0"
                                                                             cellspacing="0"
                                                                             class="es-table-not-adapt es-social"
+                                                                            dir="ltr"
                                                                             role="presentation"
                                                                             style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;"
                                                                         >
@@ -569,7 +729,7 @@
                                                                                         "
                                                                                     >
                                                                                         <img
-                                                                                            src="https://fcfhnrc.stripocdn.email/content/assets/img/social-icons/circle-black-bordered/facebook-circle-black-bordered.png"
+                                                                                            src="https://fcbszse.stripocdn.email/content/assets/img/social-icons/circle-black-bordered/facebook-circle-black-bordered.png"
                                                                                             alt="Fb"
                                                                                             title="Facebook"
                                                                                             width="24"
@@ -581,7 +741,7 @@
                                                                                 <td align="center" valign="top" style="padding: 0; margin: 0; padding-right: 20px;">
                                                                                     <a
                                                                                         target="_blank"
-                                                                                        href={{instaLink}}
+                                                                                        href={{instLink}}
                                                                                         style="
                                                                                             -webkit-text-size-adjust: none;
                                                                                             -ms-text-size-adjust: none;
@@ -592,7 +752,7 @@
                                                                                         "
                                                                                     >
                                                                                         <img
-                                                                                            src="https://fcfhnrc.stripocdn.email/content/assets/img/social-icons/circle-black-bordered/instagram-circle-black-bordered.png"
+                                                                                            src="https://fcbszse.stripocdn.email/content/assets/img/social-icons/circle-black-bordered/instagram-circle-black-bordered.png"
                                                                                             alt="Ig"
                                                                                             title="Instagram"
                                                                                             width="24"
@@ -604,7 +764,7 @@
                                                                                 <td align="center" valign="top" style="padding: 0; margin: 0;">
                                                                                     <a
                                                                                         target="_blank"
-                                                                                        href={{linkedInLink}}
+                                                                                        href={{linkedinLink}}
                                                                                         style="
                                                                                             -webkit-text-size-adjust: none;
                                                                                             -ms-text-size-adjust: none;
@@ -615,9 +775,9 @@
                                                                                         "
                                                                                     >
                                                                                         <img
-                                                                                            src="https://fcfhnrc.stripocdn.email/content/assets/img/social-icons/circle-black-bordered/linkedin-circle-black-bordered.png"
+                                                                                            src="https://fcbszse.stripocdn.email/content/assets/img/social-icons/circle-black-bordered/linkedin-circle-black-bordered.png"
                                                                                             alt="In"
-                                                                                            title="Linkedin"
+                                                                                            title="LinkedIn"
                                                                                             width="24"
                                                                                             height="24"
                                                                                             style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"
@@ -634,35 +794,12 @@
                                                 </table>
                                             </td>
                                         </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        <table
-                            class="es-content es-mobile-hidden"
-                            cellspacing="0"
-                            cellpadding="0"
-                            align="center"
-                            role="none"
-                            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px; table-layout: fixed !important; width: 100%;"
-                        >
-                            <tr>
-                                <td align="center" style="padding: 0; margin: 0;">
-                                    <table
-                                        class="es-content-body"
-                                        cellspacing="0"
-                                        cellpadding="0"
-                                        bgcolor="#ffffff"
-                                        align="center"
-                                        role="none"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px; background-color: #ffffff; width: 600px;"
-                                    >
                                         <tr>
-                                            <td align="left" bgcolor="#f6f6f6" style="padding: 0; margin: 0; padding-top: 20px; padding-left: 20px; padding-right: 20px; background-color: #f6f6f6;">
-                                                <table width="100%" cellspacing="0" cellpadding="0" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
+                                            <td align="left" bgcolor="#F6F6F6" style="padding: 0; margin: 0; padding-top: 20px; padding-right: 20px; background-color: #f6f6f6;">
+                                                <table cellpadding="0" cellspacing="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                     <tr>
-                                                        <td valign="top" align="center" style="padding: 0; margin: 0; width: 560px;">
-                                                            <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
+                                                        <td align="center" valign="top" style="padding: 0; margin: 0; width: 580px;">
+                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
                                                                     <td align="left" style="padding: 0; margin: 0;">
                                                                         <p
@@ -696,4 +833,5 @@
             </table>
         </div>
     </body>
-</html>`;
+</html>
+`

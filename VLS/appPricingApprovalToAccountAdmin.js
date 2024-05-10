@@ -595,7 +595,7 @@
                                                                                  text-align: center;
                                                                              "
                                                                          >
-                                                                             VLS Admin has approved<strong> {{appName}}</strong> app pricing {{#if priceListIsOne}} tier {{/if}} {{#if priceListIsMore}} tiers {{/if}}
+                                                                             {{firstRow}}
                                                                          </h3>
                                                                      </td>
                                                                  </tr>
@@ -613,7 +613,7 @@
                                                              <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                  <tr>
                                                                      <td align="center" style="padding: 5px; margin: 0;">
-                                                                         <h4 style="margin: 0; line-height: 24px; mso-line-height-rule: exactly; font-family: tahoma, verdana, segoe, sans-serif; font-size: 20px;">Prcing Details</h4>
+                                                                         <h4 style="margin: 0; line-height: 24px; mso-line-height-rule: exactly; font-family: tahoma, verdana, segoe, sans-serif; font-size: 20px;">{{secondRow}}</h4>
                                                                      </td>
                                                                  </tr>
                                                              </table>
@@ -795,9 +795,9 @@
                                                                                  "
                                                                                  href={{privacyPolicyLink}}
                                                                              >
-                                                                                 Privacy Policy
+                                                                                {{thirdRow}}
                                                                              </a>
-                                                                             @{{platformEndpoint}}
+                                                                             @{{platformDomain}}
                                                                          </p>
                                                                      </td>
                                                                  </tr>

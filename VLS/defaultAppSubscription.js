@@ -409,7 +409,7 @@ module.exports = defaultAppSubscription = `
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            Let's get started,{{logginAccountAdmin}}
+                                                                            {{firstRow}}
                                                                         </h2>
                                                                     </td>
                                                                 </tr>
@@ -427,7 +427,7 @@ module.exports = defaultAppSubscription = `
                                                                                 font-size: 15px;
                                                                             "
                                                                         >
-                                                                            Today is the start of your 30-days free trail.
+                                                                            {{secondRow}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -441,7 +441,7 @@ module.exports = defaultAppSubscription = `
                                                                                 font-size: 15px;
                                                                             "
                                                                         >
-                                                                            VoltusSprint helps you manage and collaborate with your workforce more efficiently.
+                                                                            {{thirdRow}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
@@ -470,7 +470,7 @@ module.exports = defaultAppSubscription = `
                                                                                             mso-text-raise: 1px;
                                                                                         "
                                                                                     >
-                                                                                    {{buttonText}}
+                                                                                    {{fourthRow}}
                                                                                     </center>
                                                                                 </v:roundrect>
                                                                             </a>
@@ -516,7 +516,7 @@ module.exports = defaultAppSubscription = `
                                                                                     mso-border-alt: 10px solid #2e77f2;
                                                                                 "
                                                                             >
-                                                                                {{buttonText}}
+                                                                                {{fourthRow}}
                                                                             </a>
                                                                         </span>
                                                                         <!--<![endif]-->
@@ -567,8 +567,7 @@ module.exports = defaultAppSubscription = `
                                                                         >
                                                                             <a
                                                                                 href="{{privacyPolicyLink}}"
-                                                                                target="_blank"
-                                                                                ,
+                                                                                target="_blank",
                                                                                 style="
                                                                                     -webkit-text-size-adjust: none;
                                                                                     -ms-text-size-adjust: none;
@@ -579,9 +578,9 @@ module.exports = defaultAppSubscription = `
                                                                                     font-family: Poppins, sans-serif;
                                                                                 "
                                                                             >
-                                                                                Privacy Policy
+                                                                               {{fifthRow}}
                                                                             </a>
-                                                                            @{{platFormName}}
+                                                                            @{{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

@@ -595,7 +595,7 @@ module.exports = appPriceRejectedToAccountAdmin = `
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                        VLS Admin has rejected <strong>{{appName}}</strong> app pricing {{#if priceListIsOne}} tier {{/if}} {{#if priceListIsMore}} tiers {{/if}}
+                                                                        {{firstRow}} 
                                                                         </h3>
                                                                     </td>
                                                                 </tr>
@@ -614,7 +614,7 @@ module.exports = appPriceRejectedToAccountAdmin = `
                                                                 <tr>
                                                                     <td align="center" style="padding: 5px; margin: 0;">
                                                                         <h4 style="margin: 0; line-height: 24px; mso-line-height-rule: exactly; font-family: arial, 'helvetica neue', helvetica, sans-serif; font-size: 20px;">
-                                                                            Pricing Details
+                                                                            {{secondRow}}
                                                                         </h4>
                                                                     </td>
                                                                 </tr>
@@ -797,9 +797,9 @@ module.exports = appPriceRejectedToAccountAdmin = `
                                                                         "
                                                                         href={{privacyPolicyLink}}
                                                                     >
-                                                                        Privacy Policy
+                                                                        {{thirdRow}}
                                                                     </a>
-                                                                    @{{platformEndpoint}}
+                                                                    @{{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

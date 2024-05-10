@@ -7,7 +7,7 @@ module.exports =  inviteUserToAccountAdmin = `
         <meta name="x-apple-disable-message-reformatting" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="telephone=no" name="format-detection" />
-        <title>Multi User Invite to Account Admin - v</title>
+        <title>Multi User Invite to Account Admin</title>
         <!--[if (mso 16)]>
             <style type="text/css">
                 a {
@@ -410,7 +410,7 @@ module.exports =  inviteUserToAccountAdmin = `
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            &nbsp;You have invited {{usersCount}} users to join your account {{orgName}}
+                                                                            {{firstRow}} {{orgName}}
                                                                         </h3>
                                                                         <p
                                                                             style="
@@ -438,8 +438,7 @@ module.exports =  inviteUserToAccountAdmin = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            You can view the list of users you have added in the<br />
-                                                                            account admin portal.
+                                                                            {{secondRow}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -503,8 +502,8 @@ module.exports =  inviteUserToAccountAdmin = `
                                                                         <a
                                                                         style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #191919; font-size: 14px;"
                                                                         href={{privacyPolicyLink}}
-                                                                        > Privacy Policy</a>
-                                                                            @{{platformEndPoint}}
+                                                                        > {{thirdRow}}</a>
+                                                                            @{{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

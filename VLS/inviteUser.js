@@ -403,14 +403,11 @@
                                                                                 line-height: 17px;
                                                                                 mso-line-height-rule: exactly;
                                                                                 font-family: poppins, sans-serif;
-                                                                                font-size: 14px;
-                                                                                font-style: normal;
-                                                                                font-weight: normal;
                                                                                 color: #333333;
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            &nbsp; {{orgAdmin}} has invited you to join {{orgName}}
+                                                                       {{orgAdmin}} {{firstRow}} {{orgName}}
                                                                         </h3>
                                                                     </td>
                                                                 </tr>
@@ -429,7 +426,7 @@
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            This invitation will expire in 7 days.
+                                                                           {{secondRow}}
                                                                         </h3>
                                                                     </td>
                                                                 </tr>
@@ -458,7 +455,7 @@
                                                                                             mso-text-raise: 1px;
                                                                                         "
                                                                                     >
-                                                                                        {{buttonContext}}
+                                                                                        {{thirdRow}}
                                                                                     </center>
                                                                                 </v:roundrect>
                                                                             </a>
@@ -504,7 +501,7 @@
                                                                                     mso-border-alt: 10px solid #31cb4b;
                                                                                 "
                                                                             >
-                                                                            {{buttonContext}}
+                                                                            {{thirdRow}}
                                                                             </a>
                                                                         </span>
                                                                         <!--<![endif]-->
@@ -553,20 +550,22 @@
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                        <a href={{privacyPolicyLink}} 
-                                                                        target="_blank"
+                                                                        <a 
+                                                                        href={{privacyPolicyLink}} 
+                                                                        target="_blank",
                                                                         style="
-                                                                        -webkit-text-size-adjust: none;
-                                                                        -ms-text-size-adjust: none;
-                                                                        mso-line-height-rule: exactly;
-                                                                        text-decoration: none;
-                                                                        color: #191919;
-                                                                        font-size: 14px;
-                                                                        font-family: Poppins, sans-serif;"
+                                                                            -webkit-text-size-adjust: none;
+                                                                            -ms-text-size-adjust: none;
+                                                                            mso-line-height-rule: exactly;
+                                                                            text-decoration: none;
+                                                                            color: #191919;
+                                                                            font-size: 14px;
+                                                                            font-family: Poppins, sans-serif;
+                                                                        "
                                                                         >
-                                                                            Privacy Policy
+                                                                            {{fourthRow}}
                                                                         </a>
-                                                                        © {{platFormName}}
+                                                                        @ {{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

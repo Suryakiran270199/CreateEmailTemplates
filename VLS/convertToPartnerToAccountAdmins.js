@@ -439,9 +439,7 @@ module.exports = convertToPartnerToAccountAdmin = `
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            Welcome to
-                                                                            <strong>{{platFormName}} Partner</strong>
-                                                                            Network
+                                                                           {{firstRow}}
                                                                         </h2>
                                                                     </td>
                                                                 </tr>
@@ -471,7 +469,7 @@ module.exports = convertToPartnerToAccountAdmin = `
                                                                                 font-size: 15px;
                                                                             "
                                                                         >
-                                                                            We're grateful to have you as our partner,you can now create and publish apps to VoltusStore and make them available to customers.
+                                                                           {{secondRow}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
@@ -491,7 +489,7 @@ module.exports = convertToPartnerToAccountAdmin = `
                                                                                 >
                                                                                     <w:anchorlock></w:anchorlock>
                                                                                     <center style="color: #ffffff; font-family: tahoma, verdana, segoe, sans-serif; font-size: 14px; font-weight: 700; line-height: 14px; mso-text-raise: 1px;">
-                                                                                    {{buttonContext}} 
+                                                                                    {{thirdRow}} 
                                                                                     </center>
                                                                                 </v:roundrect>
                                                                             </a>
@@ -537,7 +535,7 @@ module.exports = convertToPartnerToAccountAdmin = `
                                                                                     mso-border-alt: 10px solid #31cb4b;
                                                                                 "
                                                                             >
-                                                                                {{buttonContext}}
+                                                                                {{thirdRow}}
                                                                             </a>
                                                                         </span>
                                                                         <!--<![endif]-->
@@ -586,33 +584,35 @@ module.exports = convertToPartnerToAccountAdmin = `
                                                             <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
                                                                 <tr>
                                                                     <td align="center" style="margin: 0; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px;">
-                                                                        <p
-                                                                            style="
-                                                                                margin: 0;
-                                                                                -webkit-text-size-adjust: none;
-                                                                                -ms-text-size-adjust: none;
-                                                                                mso-line-height-rule: exactly;
-                                                                                font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                line-height: 18px;
-                                                                                color:#191919;
-                                                                                font-size: 14px;
-                                                                            "
-                                                                        >
-                                                                        <a href={{privacyPolicyLink}} 
-                                                                          target="_blank"
-                                                                          style="
-                                                                          -webkit-text-size-adjust: none;
-                                                                          -ms-text-size-adjust: none;
-                                                                          mso-line-height-rule: exactly;
-                                                                          text-decoration: none;
-                                                                          color: #191919;
-                                                                          font-size: 14px;
-                                                                          font-family: Poppins, sans-serif;"
-                                                                          >
-                                                                              Privacy Policy
-                                                                          </a>
-                                                                          ©{{platformEndpoint}}
-                                                                        </p>
+                                                                    <p
+                                                                    style="
+                                                                        margin: 0;
+                                                                        -webkit-text-size-adjust: none;
+                                                                        -ms-text-size-adjust: none;
+                                                                        mso-line-height-rule: exactly;
+                                                                        font-family: tahoma, verdana, segoe, sans-serif;
+                                                                        line-height: 18px;
+                                                                        color: #191919;
+                                                                        font-size: 14px;
+                                                                    "
+                                                                >
+                                                                    <a
+                                                                        target="_blank"
+                                                                        style="
+                                                                            -webkit-text-size-adjust: none;
+                                                                            -ms-text-size-adjust: none;
+                                                                            mso-line-height-rule: exactly;
+                                                                            text-decoration: none;
+                                                                            color: #191919;
+                                                                            font-size: 14px;
+                                                                            font-family: tahoma, verdana, segoe, sans-serif;
+                                                                        "
+                                                                        href={{privacyPolicyLink}}
+                                                                    >
+                                                                       {{fourthRow}}
+                                                                    </a>
+                                                                    @{{platformDomain}}
+                                                                </p>
                                                                     </td>
                                                                 </tr>
                                                             </table>

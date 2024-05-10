@@ -597,7 +597,7 @@
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            <strong>&nbsp;{{appName}}</strong> app has been sent for review
+                                                                        {{appName}} {{firstRow}}
                                                                         </h3>
                                                                         <p
                                                                             style="
@@ -625,28 +625,14 @@
                                                                                 font-size: 16px;
                                                                             "
                                                                         >
-                                                                            your app will be published to app store after a detailed&nbsp;
-                                                                        </p>
-                                                                        <p
-                                                                            style="
-                                                                                margin: 0;
-                                                                                -webkit-text-size-adjust: none;
-                                                                                -ms-text-size-adjust: none;
-                                                                                mso-line-height-rule: exactly;
-                                                                                font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                line-height: 24px;
-                                                                                color: #333333;
-                                                                                font-size: 16px;
-                                                                            "
-                                                                        >
-                                                                            review by our internal team.
+                                                                           {{secondRow}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td align="center" style="margin: 0; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 15px;">
                                                                         <h4 style="margin: 0; line-height: 24px; mso-line-height-rule: exactly; font-family: arial, 'helvetica neue', helvetica, sans-serif; color: #000000; font-size: 20px;">
-                                                                            Pricing Details
+                                                                            {{thirdRow}}
                                                                         </h4>
                                                                     </td>
                                                                 </tr>
@@ -829,9 +815,9 @@
                                                                                 "
                                                                                 href={{privacyPolicyLink}}
                                                                             >
-                                                                                Privacy Policy
+                                                                              {{fourthRow}}
                                                                             </a>
-                                                                            @{{platformEndpoint}}
+                                                                            @{{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

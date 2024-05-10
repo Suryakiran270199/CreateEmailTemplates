@@ -16,7 +16,7 @@ module.exports = assignSeatToUser = `
             </style>
         <![endif]-->
         <!--[if gte mso 9]>
-            <style>
+            <style> 
                 sup {
                     font-size: 100% !important;
                 }
@@ -376,7 +376,7 @@ module.exports = assignSeatToUser = `
                                                                                 font-size: 18px;
                                                                             "
                                                                         >
-                                                                            {{adminName}} has granted you access for {{appName}}.
+                                                                          {{adminName}}  {{firstRow}}  {{appName}}
                                                                         </p>
                                                                         <ul style="display: none;">
                                                                             <li
@@ -429,7 +429,7 @@ module.exports = assignSeatToUser = `
                                                                                 >
                                                                                     <w:anchorlock></w:anchorlock>
                                                                                     <center style="color: #ffffff; font-family: Poppins, sans-serif; font-size: 14px; font-weight: 700; line-height: 14px; mso-text-raise: 1px;">
-                                                                                    {{buttonContext}}                                                                                  </center>
+                                                                                    {{secondRow}} {{appName}}                                                                                 </center>
                                                                                 </v:roundrect>
                                                                             </a>
                                                                         <![endif]-->
@@ -475,7 +475,7 @@ module.exports = assignSeatToUser = `
                                                                                     mso-hide: all;
                                                                                 "
                                                                             >
-                                                                                {{buttonContext}}
+                                                                                {{secondRow}} {{appName}}  
                                                                             </a>
                                                                         </span>
                                                                         <!--<![endif]-->
@@ -507,7 +507,7 @@ module.exports = assignSeatToUser = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            Download {{platformName}} mobile app
+                                                                            {{thirdRow}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
@@ -660,8 +660,8 @@ module.exports = assignSeatToUser = `
                                                                         <a
                                                                         style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #191919; font-size: 14px;"
                                                                         href={{privacyPolicyLink}}
-                                                                        > Privacy Policy</a>
-                                                                            @{{platformEndPoint}}
+                                                                        >{{fourthRow}}</a>
+                                                                            @{{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

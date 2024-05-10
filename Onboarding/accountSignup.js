@@ -7,7 +7,7 @@ module.exports = accountSignup = `
         <meta name="x-apple-disable-message-reformatting" /> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="telephone=no" name="format-detection" />
-        <title>Account Admin Singnup Confirmation-V</title>
+        <title>Account Admin Singnup Confirmation</title>
         <!--[if (mso 16)]>
             <style type="text/css">
                 a {
@@ -573,7 +573,7 @@ module.exports = accountSignup = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            Hi {{adminName}},
+                                                                            {{firstRow}} {{adminName}}
                                                                         </p>
                                                                         <p
                                                                             style="
@@ -588,9 +588,9 @@ module.exports = accountSignup = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            Thank you for signing up with us.
+                                                                            {{secondRow}}
                                                                         </p>
-                                                                        <h4 style="margin: 0; line-height: 18px; mso-line-height-rule: exactly; font-family: poppins, sans-serif; font-size: 18px;"><u>Account Details</u></h4>
+                                                                        <h4 style="margin: 0; line-height: 18px; mso-line-height-rule: exactly; font-family: poppins, sans-serif; font-size: 18px;"><u>{{thirdRow}}</u></h4>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -1107,7 +1107,7 @@ module.exports = accountSignup = `
                                                                                 >
                                                                                     <w:anchorlock></w:anchorlock>
                                                                                     <center style="color: #ffffff; font-family: tahoma, verdana, segoe, sans-serif; font-size: 15px; font-weight: 700; line-height: 15px; mso-text-raise: 1px;">
-                                                                                    {{buttonText}}
+                                                                                    {{fourthRow}}
                                                                                     </center>
                                                                                 </v:roundrect>
                                                                             </a>
@@ -1143,7 +1143,7 @@ module.exports = accountSignup = `
                                                                                     mso-border-alt: 10px solid #f15025;
                                                                                 "
                                                                             >
-                                                                              {{buttonText}}
+                                                                              {{fourthRow}}
                                                                             </a>
                                                                         </span>
                                                                         <!--<![endif]-->
@@ -1155,400 +1155,7 @@ module.exports = accountSignup = `
                                                 </table>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td align="left" bgcolor="#ffffff" style="padding: 0; margin: 0; padding-top: 10px; padding-left: 20px; padding-right: 20px; background-color: #ffffff;">
-                                                <table cellpadding="0" cellspacing="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                    <tr>
-                                                        <td align="center" valign="top" style="padding: 0; margin: 0; width: 560px;">
-                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                                <tr>
-                                                                    <td align="left" class="es-m-txt-c" style="padding: 0; margin: 0;">
-                                                                        <p
-                                                                            style="
-                                                                                margin: 0;
-                                                                                -webkit-text-size-adjust: none;
-                                                                                -ms-text-size-adjust: none;
-                                                                                mso-line-height-rule: exactly;
-                                                                                font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                line-height: 19px;
-                                                                                margin-bottom: 10px;
-                                                                                color: #191919;
-                                                                                font-size: 16px;
-                                                                            "
-                                                                        >
-                                                                            &nbsp;&nbsp;We're excited to share some resources with you about {{platformName}}
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" bgcolor="#ffffff" style="margin: 0; padding-bottom: 10px; padding-top: 20px; padding-left: 20px; padding-right: 20px; background-color: #ffffff;">
-                                                <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:262px" valign="top"><![endif]-->
-                                                <table
-                                                    cellpadding="0"
-                                                    cellspacing="0"
-                                                    class="es-left"
-                                                    align="left"
-                                                    role="none"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px; float: left;"
-                                                >
-                                                    <tr>
-                                                        <td class="es-m-p20b" align="left" style="padding: 0; margin: 0; width: 262px;">
-                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                                <tr>
-                                                                    <td align="center" style="padding: 0; margin: 0; font-size: 0px;">
-                                                                        <a
-                                                                            target="_blank"
-                                                                            href="https://voltussprint.com/2023/08/17/voltussprint-an-end-to-end-erp-designed-for-tech-startup-success/"
-                                                                            style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #191919; font-size: 16px;"
-                                                                        >
-                                                                            <img
-                                                                                class="adapt-img"
-                                                                                src="https://vls-app-screenshots.s3.amazonaws.com/VLSEmailTemplateImages/blog-one.png"
-                                                                                alt
-                                                                                style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                                width="262"
-                                                                                height="147"
-                                                                            />
-                                                                        </a>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" class="h-auto" height="37" style="padding: 5px; margin: 0;">
-                                                                        <!--[if mso]>
-                                                                            <a href="https://voltussprint.com/2023/08/17/voltussprint-an-end-to-end-erp-designed-for-tech-startup-success/" target="_blank" hidden>
-                                                                                <v:roundrect
-                                                                                    xmlns:v="urn:schemas-microsoft-com:vml"
-                                                                                    xmlns:w="urn:schemas-microsoft-com:office:word"
-                                                                                    esdevVmlButton
-                                                                                    href="https://voltussprint.com/2023/08/17/voltussprint-an-end-to-end-erp-designed-for-tech-startup-success/"
-                                                                                    style="height: 26px; v-text-anchor: middle; width: 109px;"
-                                                                                    arcsize="19%"
-                                                                                    stroke="f"
-                                                                                    fillcolor="#3d85c6"
-                                                                                >
-                                                                                    <w:anchorlock></w:anchorlock>
-                                                                                    <center style="color: #ffffff; font-family: Poppins, sans-serif; font-size: 9px; font-weight: 400; line-height: 9px; mso-text-raise: 1px;">
-                                                                                        Know More
-                                                                                    </center>
-                                                                                </v:roundrect>
-                                                                            </a>
-                                                                        <![endif]-->
-                                                                        <!--[if !mso]><!-- -->
-                                                                        <span
-                                                                            class="msohide es-button-border"
-                                                                            style="border-style: solid; border-color: #2cb543; background: #3d85c6; border-width: 0px; display: inline-block; border-radius: 5px; width: auto; mso-hide: all;"
-                                                                        >
-                                                                            <a
-                                                                                href="https://voltussprint.com/2023/08/17/voltussprint-an-end-to-end-erp-designed-for-tech-startup-success/"
-                                                                                class="es-button es-button-1697019518561"
-                                                                                target="_blank"
-                                                                                style="
-                                                                                    mso-style-priority: 100 !important;
-                                                                                    text-decoration: none;
-                                                                                    -webkit-text-size-adjust: none;
-                                                                                    -ms-text-size-adjust: none;
-                                                                                    mso-line-height-rule: exactly;
-                                                                                    color: #ffffff;
-                                                                                    font-size: 14px;
-                                                                                    padding: 5px 10px;
-                                                                                    display: inline-block;
-                                                                                    background: #3d85c6;
-                                                                                    border-radius: 5px;
-                                                                                    font-family: Poppins, sans-serif;
-                                                                                    font-weight: normal;
-                                                                                    font-style: normal;
-                                                                                    line-height: 17px;
-                                                                                    width: auto;
-                                                                                    text-align: center;
-                                                                                    mso-padding-alt: 0;
-                                                                                    mso-border-alt: 10px solid #3d85c6;
-                                                                                "
-                                                                            >
-                                                                                Know More
-                                                                            </a>
-                                                                        </span>
-                                                                        <!--<![endif]-->
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" style="padding: 20px; margin: 0; font-size: 0;">
-                                                                        <table
-                                                                            border="0"
-                                                                            width="100%"
-                                                                            height="100%"
-                                                                            cellpadding="0"
-                                                                            cellspacing="0"
-                                                                            role="presentation"
-                                                                            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;"
-                                                                        >
-                                                                            <tr>
-                                                                                <td style="padding: 0; margin: 0; border-bottom: 1px solid #cccccc; background: unset; height: 1px; width: 100%; margin: 0px;"></td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="es-m-p20b" align="left" style="padding: 0; margin: 0; width: 262px;">
-                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                                <tr>
-                                                                    <td align="center" style="padding: 0; margin: 0; font-size: 0px;">
-                                                                        <img
-                                                                            class="adapt-img"
-                                                                            src="https://vls-app-screenshots.s3.amazonaws.com/VLSEmailTemplateImages/blog-3.png"
-                                                                            alt
-                                                                            style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                            width="262"
-                                                                            height="147"
-                                                                        />
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" style="padding: 5px; margin: 0;">
-                                                                        <!--[if mso]>
-                                                                            <a href="https://voltussprint.com/2023/08/30/introducing-voltussprint-learning-guide/" target="_blank" hidden>
-                                                                                <v:roundrect
-                                                                                    xmlns:v="urn:schemas-microsoft-com:vml"
-                                                                                    xmlns:w="urn:schemas-microsoft-com:office:word"
-                                                                                    esdevVmlButton
-                                                                                    href="https://voltussprint.com/2023/08/30/introducing-voltussprint-learning-guide/"
-                                                                                    style="height: 26px; v-text-anchor: middle; width: 109px;"
-                                                                                    arcsize="19%"
-                                                                                    stroke="f"
-                                                                                    fillcolor="#3d85c6"
-                                                                                >
-                                                                                    <w:anchorlock></w:anchorlock>
-                                                                                    <center style="color: #ffffff; font-family: Poppins, sans-serif; font-size: 9px; font-weight: 400; line-height: 9px; mso-text-raise: 1px;">
-                                                                                        Know More
-                                                                                    </center>
-                                                                                </v:roundrect>
-                                                                            </a>
-                                                                        <![endif]-->
-                                                                        <!--[if !mso]><!-- -->
-                                                                        <span
-                                                                            class="msohide es-button-border"
-                                                                            style="border-style: solid; border-color: #2cb543; background: #3d85c6; border-width: 0px; display: inline-block; border-radius: 5px; width: auto; mso-hide: all;"
-                                                                        >
-                                                                            <a
-                                                                                href="https://voltussprint.com/2023/08/30/introducing-voltussprint-learning-guide/"
-                                                                                class="es-button es-button-1697019651135"
-                                                                                target="_blank"
-                                                                                style="
-                                                                                    mso-style-priority: 100 !important;
-                                                                                    text-decoration: none;
-                                                                                    -webkit-text-size-adjust: none;
-                                                                                    -ms-text-size-adjust: none;
-                                                                                    mso-line-height-rule: exactly;
-                                                                                    color: #ffffff;
-                                                                                    font-size: 14px;
-                                                                                    padding: 5px 10px;
-                                                                                    display: inline-block;
-                                                                                    background: #3d85c6;
-                                                                                    border-radius: 5px;
-                                                                                    font-family: Poppins, sans-serif;
-                                                                                    font-weight: normal;
-                                                                                    font-style: normal;
-                                                                                    line-height: 17px;
-                                                                                    width: auto;
-                                                                                    text-align: center;
-                                                                                    mso-padding-alt: 0;
-                                                                                    mso-border-alt: 10px solid #3d85c6;
-                                                                                "
-                                                                            >
-                                                                                Know More
-                                                                            </a>
-                                                                        </span>
-                                                                        <!--<![endif]-->
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!--[if mso]></td><td style="width:40px"></td><td style="width:258px" valign="top"><![endif]-->
-                                                <table
-                                                    cellpadding="0"
-                                                    cellspacing="0"
-                                                    class="es-right"
-                                                    align="right"
-                                                    role="none"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px; float: right;"
-                                                >
-                                                    <tr>
-                                                        <td align="left" style="padding: 0; margin: 0; width: 258px;">
-                                                            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
-                                                                <tr>
-                                                                    <td align="center" style="padding: 0; margin: 0; font-size: 0px;">
-                                                                        <img
-                                                                            class="adapt-img"
-                                                                            src="https://vls-app-screenshots.s3.amazonaws.com/VLSEmailTemplateImages/blog-two.png"
-                                                                            alt
-                                                                            style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                            width="258"
-                                                                            height="145"
-                                                                        />
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" class="h-auto" height="37" style="padding: 0; margin: 0;">
-                                                                        <!--[if mso]>
-                                                                            <a href="https://voltussprint.com/2023/08/31/voltussprint-erp-1-business-software-solution/" target="_blank" hidden>
-                                                                                <v:roundrect
-                                                                                    xmlns:v="urn:schemas-microsoft-com:vml"
-                                                                                    xmlns:w="urn:schemas-microsoft-com:office:word"
-                                                                                    esdevVmlButton
-                                                                                    href="https://voltussprint.com/2023/08/31/voltussprint-erp-1-business-software-solution/"
-                                                                                    style="height: 26px; v-text-anchor: middle; width: 109px;"
-                                                                                    arcsize="19%"
-                                                                                    stroke="f"
-                                                                                    fillcolor="#3d85c6"
-                                                                                >
-                                                                                    <w:anchorlock></w:anchorlock>
-                                                                                    <center style="color: #ffffff; font-family: Poppins, sans-serif; font-size: 9px; font-weight: 400; line-height: 9px; mso-text-raise: 1px;">
-                                                                                        Know More
-                                                                                    </center>
-                                                                                </v:roundrect>
-                                                                            </a>
-                                                                        <![endif]-->
-                                                                        <!--[if !mso]><!-- -->
-                                                                        <span
-                                                                            class="msohide es-button-border"
-                                                                            style="border-style: solid; border-color: #2cb543; background: #3d85c6; border-width: 0px; display: inline-block; border-radius: 5px; width: auto; mso-hide: all;"
-                                                                        >
-                                                                            <a
-                                                                                href="https://voltussprint.com/2023/08/31/voltussprint-erp-1-business-software-solution/"
-                                                                                class="es-button es-button-1697019637249"
-                                                                                target="_blank"
-                                                                                style="
-                                                                                    mso-style-priority: 100 !important;
-                                                                                    text-decoration: none;
-                                                                                    -webkit-text-size-adjust: none;
-                                                                                    -ms-text-size-adjust: none;
-                                                                                    mso-line-height-rule: exactly;
-                                                                                    color: #ffffff;
-                                                                                    font-size: 14px;
-                                                                                    padding: 5px 10px;
-                                                                                    display: inline-block;
-                                                                                    background: #3d85c6;
-                                                                                    border-radius: 5px;
-                                                                                    font-family: Poppins, sans-serif;
-                                                                                    font-weight: normal;
-                                                                                    font-style: normal;
-                                                                                    line-height: 17px;
-                                                                                    width: auto;
-                                                                                    text-align: center;
-                                                                                    mso-padding-alt: 0;
-                                                                                    mso-border-alt: 10px solid #3d85c6;
-                                                                                "
-                                                                            >
-                                                                                Know More
-                                                                            </a>
-                                                                        </span>
-                                                                        <!--<![endif]-->
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" style="padding: 20px; margin: 0; font-size: 0;">
-                                                                        <table
-                                                                            border="0"
-                                                                            width="100%"
-                                                                            height="100%"
-                                                                            cellpadding="0"
-                                                                            cellspacing="0"
-                                                                            role="presentation"
-                                                                            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;"
-                                                                        >
-                                                                            <tr>
-                                                                                <td style="padding: 0; margin: 0; border-bottom: 1px solid #cccccc; background: unset; height: 1px; width: 100%; margin: 0px;"></td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" style="padding: 0; margin: 0; font-size: 0px;">
-                                                                        <img
-                                                                            class="adapt-img"
-                                                                            src="https://vls-app-screenshots.s3.amazonaws.com/VLSEmailTemplateImages/blog-4.png"
-                                                                            alt
-                                                                            style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;"
-                                                                            width="258"
-                                                                            height="145"
-                                                                        />
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center" style="padding: 5px; margin: 0;">
-                                                                        <!--[if mso]>
-                                                                            <a href="https://voltussprint.com/2023/08/17/voltussprint-why-single-erp-solution-for-tech-startups/" target="_blank" hidden>
-                                                                                <v:roundrect
-                                                                                    xmlns:v="urn:schemas-microsoft-com:vml"
-                                                                                    xmlns:w="urn:schemas-microsoft-com:office:word"
-                                                                                    esdevVmlButton
-                                                                                    href="https://voltussprint.com/2023/08/17/voltussprint-why-single-erp-solution-for-tech-startups/"
-                                                                                    style="height: 26px; v-text-anchor: middle; width: 109px;"
-                                                                                    arcsize="19%"
-                                                                                    stroke="f"
-                                                                                    fillcolor="#3d85c6"
-                                                                                >
-                                                                                    <w:anchorlock></w:anchorlock>
-                                                                                    <center style="color: #ffffff; font-family: Poppins, sans-serif; font-size: 9px; font-weight: 400; line-height: 9px; mso-text-raise: 1px;">
-                                                                                        Know More
-                                                                                    </center>
-                                                                                </v:roundrect>
-                                                                            </a>
-                                                                        <![endif]-->
-                                                                        <!--[if !mso]><!-- -->
-                                                                        <span
-                                                                            class="msohide es-button-border"
-                                                                            style="border-style: solid; border-color: #2cb543; background: #3d85c6; border-width: 0px; display: inline-block; border-radius: 5px; width: auto; mso-hide: all;"
-                                                                        >
-                                                                            <a
-                                                                                href="https://voltussprint.com/2023/08/17/voltussprint-why-single-erp-solution-for-tech-startups/"
-                                                                                class="es-button es-button-1697019644255"
-                                                                                target="_blank"
-                                                                                style="
-                                                                                    mso-style-priority: 100 !important;
-                                                                                    text-decoration: none;
-                                                                                    -webkit-text-size-adjust: none;
-                                                                                    -ms-text-size-adjust: none;
-                                                                                    mso-line-height-rule: exactly;
-                                                                                    color: #ffffff;
-                                                                                    font-size: 14px;
-                                                                                    padding: 5px 10px;
-                                                                                    display: inline-block;
-                                                                                    background: #3d85c6;
-                                                                                    border-radius: 5px;
-                                                                                    font-family: Poppins, sans-serif;
-                                                                                    font-weight: normal;
-                                                                                    font-style: normal;
-                                                                                    line-height: 17px;
-                                                                                    width: auto;
-                                                                                    text-align: center;
-                                                                                    mso-padding-alt: 0;
-                                                                                    mso-border-alt: 10px solid #3d85c6;
-                                                                                "
-                                                                            >
-                                                                                Know More
-                                                                            </a>
-                                                                        </span>
-                                                                        <!--<![endif]-->
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!--[if mso]></td></tr></table><![endif]-->
-                                            </td>
-                                        </tr>
+                                        
                                         <tr>
                                             <td align="left" bgcolor="#ffffff" style="padding: 0; margin: 0; padding-top: 15px; padding-left: 20px; padding-right: 20px; background-color: #ffffff;">
                                                 <table cellpadding="0" cellspacing="0" width="100%" role="none" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; border-spacing: 0px;">
@@ -1570,7 +1177,7 @@ module.exports = accountSignup = `
                                                                                 font-size: 14px;
                                                                             "
                                                                         >
-                                                                            Download the {{platformName}} mobile app
+                                                                            {{fifthRow}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
@@ -1726,7 +1333,7 @@ module.exports = accountSignup = `
                                                                         <a
                                                                         style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #191919; font-size: 14px;"
                                                                         href={{privacyPolicyLink}}
-                                                                        >Privacy Policy </a> © {{platformDomain}}
+                                                                        >{{sixthRow}} </a> © {{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>

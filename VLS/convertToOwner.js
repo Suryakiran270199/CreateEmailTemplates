@@ -10,7 +10,7 @@
           <meta name="x-apple-disable-message-reformatting" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta content="telephone=no" name="format-detection" />
-          <title>Convert to Partner</title>
+          <title>Convert to Owner</title>
           <!--[if (mso 16)]>
               <style type="text/css">
                   a {
@@ -443,9 +443,7 @@
                                                                                   text-align: center;
                                                                               "
                                                                           >
-                                                                              Your account has been granted
-                                                                              <strong>{{accountType}}</strong>
-                                                                              privileges !
+                                                                             <strong> {{firstRow}} </strong>
                                                                           </h2>
                                                                       </td>
                                                                   </tr>
@@ -475,7 +473,7 @@
                                                                                   font-size: 15px;
                                                                               "
                                                                           >
-                                                                              Now you can create your own Apps and build custom workflows using the
+                                                                             {{secondRow}}
                                                                           </p>
                                                                           <p
                                                                               style="
@@ -489,21 +487,7 @@
                                                                                   font-size: 15px;
                                                                               "
                                                                           >
-                                                                              &nbsp;No Code App Builder.
-                                                                          </p>
-                                                                          <p
-                                                                              style="
-                                                                                  margin: 0;
-                                                                                  -webkit-text-size-adjust: none;
-                                                                                  -ms-text-size-adjust: none;
-                                                                                  mso-line-height-rule: exactly;
-                                                                                  font-family: tahoma, verdana, segoe, sans-serif;
-                                                                                  line-height: 30px;
-                                                                                  color: #333333;
-                                                                                  font-size: 15px;
-                                                                              "
-                                                                          >
-                                                                              Enhance your business productivity and achieve digitisation within no time.
+                                                                          {{thirdRow}}
                                                                           </p>
                                                                       </td>
                                                                   </tr>
@@ -523,7 +507,7 @@
                                                                                   >
                                                                                       <w:anchorlock></w:anchorlock>
                                                                                       <center style="color: #ffffff; font-family: tahoma, verdana, segoe, sans-serif; font-size: 14px; font-weight: 700; line-height: 14px; mso-text-raise: 1px;">
-                                                                                         {{buttonContext}}
+                                                                                         {{fourthRow}}
                                                                                       </center>
                                                                                   </v:roundrect>
                                                                               </a>
@@ -569,7 +553,7 @@
                                                                                       mso-border-alt: 10px solid #31cb4b;
                                                                                   "
                                                                               >
-                                                                                 {{buttonContext}}
+                                                                                 {{fourthRow}}
                                                                               </a>
                                                                           </span>
                                                                           <!--<![endif]-->
@@ -641,9 +625,9 @@
                                                                           font-size: 14px;
                                                                           font-family: Poppins, sans-serif;"
                                                                           >
-                                                                              Privacy Policy
+                                                                              {{fifthRow}}
                                                                           </a>
-                                                                               @{{platFormName}}
+                                                                               @{{platformDomain}}
                                                                           </p>
                                                                       </td>
                                                                   </tr>

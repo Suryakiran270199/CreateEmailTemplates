@@ -8,7 +8,7 @@
             <meta name="x-apple-disable-message-reformatting" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta content="telephone=no" name="format-detection" />
-            <title>App subscription-V</title>
+            <title>App subscription  to Admin</title>
             <!--[if (mso 16)]>
                 <style type="text/css">
                     a {
@@ -441,8 +441,7 @@
                                                                                     text-align: center;
                                                                                 "
                                                                             >
-                             {{logginAccountAdmin}} as successfully subscribed to {{appName}} from {{orgName}} with following details
-                              
+                                                                            {{firstRow}}
                                                                             </h2>
                                                                         </td>
                                                                     </tr>
@@ -760,7 +759,7 @@
                                                                                                 font-size: 15px;
                                                                                             "
                                                                                         >
-                                                                                            {{trialPeriod}}
+                                                                                            {{trialPeriod}} days
                                                                                         </p>
                                                                                     </td>
                                                                                 </tr>
@@ -856,7 +855,7 @@
                                                                                                 font-size: 15px;
                                                                                             "
                                                                                         >
-                                                                                            {{subscriptionPrice}}
+                                                                                            {{subscriptionPrice}} {{#if currencyTypeIsINR}} ₹ {{/if}}{{#if currencyTypeIsUSD}} $ {{/if}}
                                                                                         </p>
                                                                                     </td>
                                                                                 </tr>
@@ -913,18 +912,18 @@
                                                                                 "
                                                                             >
                                                                             <a
-                                                                            href={{privacyPolicyLink}}
-                                                                            style="
-                                                                            -webkit-text-size-adjust: none;
-                                                                            -ms-text-size-adjust: none;
-                                                                            mso-line-height-rule: exactly;
-                                                                            text-decoration: underline;
-                                                                            color: #191919;
-                                                                            font-size: 14px;
-                                                                            font-family: Poppins, sans serif;"
-                                                                            targe="_blank"
+                                                                                href={{privacyPolicyLink}}
+                                                                                target="_blank"
+                                                                                style="
+                                                                                -webkit-text-size-adjust: none;
+                                                                                -ms-text-size-adjust: none;
+                                                                                mso-line-height-rule: exactly;
+                                                                                text-decoration: none;
+                                                                                color: #191919;
+                                                                                font-size: 14px;
+                                                                                font-family: Poppins, sans-serif;"
                                                                             >
-                                                                                Privacy Policy </a> @{{platFormName}}
+                                                                                {{secondRow}} </a> @{{platformDomain}}
                                                                             </p>
                                                                         </td>
                                                                     </tr>

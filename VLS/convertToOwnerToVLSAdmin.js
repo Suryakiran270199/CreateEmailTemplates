@@ -429,8 +429,7 @@
                                                                                 text-align: center;
                                                                             "
                                                                         >
-                                                                            You have converted a
-                                                                            <strong>Tenant</strong> Account into an <strong>{{accountType}}</strong> Account
+                                                                            {{firstRow}}
                                                                         </h3>
                                                                     </td>
                                                                 </tr>
@@ -449,7 +448,7 @@
                                                                 <tr>
                                                                     <td align="left" style="margin: 0; padding-top: 10px; padding-bottom: 10px; padding-left: 30px; padding-right: 30px;">
                                                                         <h4 style="margin: 0; line-height: 27px; mso-line-height-rule: exactly; font-family: tahoma, verdana, segoe, sans-serif; font-size: 15px;">
-                                                                            <u><span style="font-size: 18px;">Account details</span></u>
+                                                                            <u><span style="font-size: 18px;">{{secondRow}}</span></u>
                                                                         </h4>
                                                                         <p
                                                                             style="
@@ -578,9 +577,9 @@
                                                                                     font-family: Poppins, sans-serif;
                                                                                 "
                                                                             >
-                                                                                Privacy Policy
+                                                                                {{thirdRow}}
                                                                             </a>
-                                                                            @{{platFormName}}
+                                                                            @{{platformDomain}}
                                                                         </p>
                                                                     </td>
                                                                 </tr>
